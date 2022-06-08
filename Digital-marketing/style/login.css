@@ -1,0 +1,84 @@
+/*  --------Start sign login section--------  */
+.login-container {
+    background-image: url(../image/e-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -8px 9px 50px #0000006b;
+}
+.login-form-wrapper{
+    padding: 20px;
+}
+.image-login-wrapper img{
+    filter: brightness(0.9);
+}
+.login-form-wrapper h4{
+    font-size: 18px;
+    color: #383838;
+}
+.login-form-wrapper a{
+    font-size: 18px;
+    color: #383838;
+    transition: all 0.4s ease;
+}
+.login-form-wrapper a:hover{
+    color: rgb(20, 40, 220);
+}
+/* login google button style */
+.login-with-google .google-button {
+    font-family: inherit;
+    background: #f31036;
+    color: white;
+    padding: 20px 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 2.8em;
+    padding-right: 0.9em;
+}
+.login-with-google .github-button{
+    background: #222222;
+}
+.login-with-google button p{
+    text-align: center;
+    width: 100%;
+    line-height: 2px;
+}
+.login-with-google .google-button .login-icon {
+    background: #fff;
+    height: 29px;
+    width: 29px;
+    border-radius: 2em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.4em;
+    transition: all 0.5s;
+}
+   
+.login-icon svg {
+    margin-left: 0.4em;
+    transition: all 0.5s;
+    color: #2CA0D9;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 auto;
+}
+   
+.login-with-google .google-button:hover .login-icon svg {
+    transform: rotate(360deg);
+}
+   
+.login-with-google .google-button:hover .login-icon{
+    width: calc(100% - 0.85rem);
+    border-radius: 0.5em;
+}

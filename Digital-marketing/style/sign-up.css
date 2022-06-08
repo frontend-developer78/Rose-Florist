@@ -1,0 +1,275 @@
+/* ---------- Start progress bar list style --------- */
+.progress-inner li{
+    font-size: 14px;
+    font-weight: 700;
+    color: #019e01;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.progress-inner li.personal-detail::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 20px;
+    height: 4px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.progress-inner li.personal-detail::before {
+    content: '1';
+    position: absolute;
+    top: -34px;
+    left: 32px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #00a900;
+    color: #fff;
+    border: 2px solid #ddd;
+    text-align: center;
+    padding-top: 4px;
+}
+.progress-inner li.address::before {
+    content: '2';
+    position: absolute;
+    top: -34px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #00a900;
+    color: #fff;
+    border: 2px solid #ddd;
+    text-align: center;
+    padding-top: 4px;
+}
+.progress-inner li.acount-setup::before {
+    content: '3';
+    position: absolute;
+    top: -34px;
+    left: 42px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #00a900;
+    color: #fff;
+    border: 2px solid #ddd;
+    text-align: center;
+    padding-top: 4px;
+}
+.progress-inner li.active:before, .progress-inner li.active:after{  
+    background: #27AE60;  
+    color: white;  
+} 
+.progress-inner li.active:after{  
+    left: -149px;
+    width: 184px;  
+}
+.progress-inner li.active-2:after{  
+    left: -387px;
+    width: 424px; 
+}
+.progress-inner li.unactive:after{  
+    left: -149px;
+    width: 184px; 
+}
+.progress-inner li.unactive-2:after{  
+    right: 0;
+    width: 0;
+}
+.signup-form-wrapper fieldset:not(:first-of-type) {  
+    display: none;  
+}  
+fieldset{     
+    position: relative;  
+} 
+/* --------Start sign up section-------- */
+.signup-container{
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: -3px 8px 50px rgb(0 0 0 / 30%);
+}
+.signup-form-inner input{
+    font-size: 15px;
+    color: rgb(54, 54, 54);
+}
+.signup-form-inner input:focus{
+    box-shadow: none;
+    border: 3px solid rgb(255, 11, 133);
+}
+.signup-form-inner label{
+    font-size: 14px;
+    color: rgb(84, 2, 131);
+}
+.signup-form-inner select{
+    font-size: 15px;
+    color: #f70389;
+}
+.signup-form-inner select:focus{
+    box-shadow: none;
+    border: 3px solid rgb(255, 11, 133);
+}
+/* From uiverse.io */
+button.signup-button-wrapper {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+   .signup-button-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+   }
+   
+   .signup-button-edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(340deg 100% 16%) 0%,
+       hsl(340deg 100% 32%) 8%,
+       hsl(340deg 100% 32%) 92%,
+       hsl(340deg 100% 16%) 100%
+     );
+   }
+   
+   .signup-button-front {
+    display: block;
+    position: relative;
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+   }
+   
+   button.signup-button-wrapper:hover {
+    filter: brightness(110%);
+   }
+   
+   button.signup-button-wrapper:hover .signup-button-front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+   }
+   
+   button.signup-button-wrapper:active .signup-button-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+   }
+   
+   button.signup-button-wrapper:hover .signup-button-shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+   }
+   
+   button.signup-button-wrapper:active .signup-button-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+   }
+   
+   button.signup-button-wrapper:focus:not(:focus-visible) {
+    outline: none;
+   }
+
+.social-media-signup-icon{
+    position: absolute;
+    bottom: 55px;
+    right: 49px;
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: -7px 11px 20px #00000080;
+    width: 368px;
+}
+.social-media-signup-icon h4{
+    color: rgb(169 0 255);
+    font-weight: bold;
+    text-shadow: 2px 7px 10px #7e7e7e;
+}
+.social-media-signup-icon p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* From uiverse.io by @adamgiebl */
+.cssbuttons-io-button {
+    background: #A370F0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+}   
+.cssbuttons-io-button:focus{
+    outline: none;
+}
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+}  
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+} 
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+}  
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}  
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}   

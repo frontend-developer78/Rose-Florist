@@ -1,0 +1,30 @@
+/* --------Start footer section-------- */
+.footer-section{
+    background-color: #fff;
+}
+.footer-section h5{
+    font-size: 17px;
+    color: rgb(48, 48, 48);
+}
+.footer-section a{
+    color: #8d8d8d;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.footer-section a:hover{
+    color: rgb(226, 8, 117);
+    margin-right: 6px;
+}
+.footer-section .social-media-footer-icon a:hover{
+    transform: scale(1.2);
+    margin-right: 0;
+}
+.copyright-section{
+    background-color: #383838;
+}
+.copyright-section p{
+    color: rgb(250, 250, 250);
+    font-size: 14px;
+    padding: 5px;
+}
+/* --------End footer section-------- */

@@ -1,0 +1,24 @@
+/* --------Start product header section-------- */
+.breadcrumb-container .breadcrumb {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0;
+    background-color: #f8f9fa;
+    border-radius: 0;
+}
+.breadcrumb-container .breadcrumb li a{
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}
+.breadcrumb-container .breadcrumb li.active{
+    font-size: 14px;
+    color: rgb(243, 7, 125);
+}
+.product-header-section .product-header-content a{
+    font-size: 14px;
+    color: #9b9b9b;
+    transition: all 0.3s ease;
+}
+.product-header-section .product-header-content a:hover{
+    color: rgb(243, 7, 125);
+}
+/* --------End product header section-------- */

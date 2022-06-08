@@ -1,0 +1,90 @@
+/* --------Start View and buy the product section-------- */
+.buy-product-section{
+    border-radius: 20px;
+    border: 1px solid #efefef;
+    box-shadow: 1px 1px 10px 1px #efefef;
+}
+.buy-product-section .Product-icon-section a.heart-icon-section img.heart-red{
+    display: none;
+} 
+.buy-product-section .Product-icon-section a.heart-icon-section:focus img.heart-red{
+    display: block;
+}
+.buy-product-section .Product-icon-section a.heart-icon-section:focus img.heart-black{
+    display: none;
+}
+.Product-images-container .zoom-main span{
+    border: 6px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 1px #dadada;
+    border-radius: 20px;
+}
+.Product-images-container .zoom-thumb{
+    margin-top: 10px;
+}
+.Product-images-container .zoom-thumb a{
+    border-radius: 10px;
+    margin: 0 2px;
+}
+.Product-images-container .zoom-thumb img{
+    border-radius: 7px;
+}
+.Product-images-content-inner h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(41, 41, 41);
+}
+.Product-images-content-inner .order-content p{
+    font-size: 13px;
+    color: #969696;
+}
+.Product-images-content-inner .order-content div.order-content-overlay{
+    width: 40%;
+    height: 2px;
+    background-color: #bebebe;
+}
+.Product-images-content-inner .order-Property a{
+    font-size: 15px;
+    color: rgb(43, 43, 43);
+}
+.Product-images-content-inner .Score-section{
+    border: 1px solid #d8d8d8;
+    padding: 13px;
+    border-radius: 10px;
+}
+.Product-images-content-inner .bitcoin-section{
+    border: 1px solid #d8d8d8;
+    padding: 13px;
+    border-radius: 10px;
+}
+.add-cart-container .input-group{
+    width: auto;
+}
+.add-cart-container .input-group .custom-select{
+    flex: unset;
+    width: 58px;
+}
+.add-cart-container .input-group .input-group-text {
+    color: #f1f1f1;
+    background-color: #f17109;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+.add-cart-container .input-group .custom-select:focus {
+    border-color: #d8d8d8;
+    box-shadow: none;
+}
+.add-cart-container a{
+    background-color: rgb(252, 4, 99);
+    color: #fff;
+    font-size: 15px;
+    width: 66%;
+}
+.Product-images-content-inner .price-flower strong{
+    font-size: 24px;
+    color: rgb(235, 2, 91);
+}
+.Product-images-content-inner .price-flower s{
+    color: #969696;
+    font-size: 17px;
+}
+/* --------End View and buy the product section-------- */

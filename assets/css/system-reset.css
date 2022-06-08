@@ -1,0 +1,101 @@
+@import "../style/header.css";
+@import "../style/profile.css";
+@import "../style/account.css";
+@import "../style/live.css";
+
+
+@font-face{
+    font-family: IRANYekanWebMedium;
+    src: url("../fonts/IRANYekanWebMedium.eot") format("eot"),
+    url("../fonts/IRANYekanWebMedium.ttf") format("truetype"),
+    url("../fonts/IRANYekanWebMedium.woff") format("woff"),
+    url("../fonts/IRANYekanWebMedium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: iranyekanwebmediumfanum;
+    src: url("../fonts/iranyekanwebmediumfanum.eot") format("eot"),
+    url("../fonts/iranyekanwebmediumfanum.ttf") format("truetype"),
+    url("../fonts/iranyekanwebmediumfanum.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: IRANYekanWebLight;
+    src: url("../fonts/IRANYekanWebLight.eot") format("eot"),
+    url("../fonts/IRANYekanWebLight.ttf") format("truetype"),
+    url("../fonts/IRANYekanWebLight.woff") format("woff"),
+    url("../fonts/IRANYekanWebLight.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+*,
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
+}
+/* body{
+    direction: rtl;
+} */
+a{
+    text-decoration: none;
+}
+ul, li, ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.black-color{
+    background-color: black;
+}
+.red-color{
+    background-color: red;
+}
+.blue-color{
+    background-color: blue;
+}
+.green-color{
+    background-color: green;
+}
+.yellow-color{
+    background-color: yellow;
+}
+.gray-color{
+    background-color: gray;
+}
+.purple-color{
+    background-color: purple;
+}
+.img-responsive{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.p-0{
+    padding: 0 !important;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}

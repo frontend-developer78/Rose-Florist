@@ -1,0 +1,35 @@
+.events-product-inner{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #efefef;
+    box-shadow: 1px 1px 10px 1px #efefef;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+.events-product-inner img{
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+.events-product-inner a{
+    background-color: rgb(236, 3, 120);
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+.events-product-inner:hover{
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px 1px #bdbdbd;
+}
+.events-product-inner:hover a{
+    box-shadow: 0 0 8px #838383;
+}
+.events-product-inner:hover img{
+    transform: scale(2.5) rotate(10deg);
+}

@@ -1,0 +1,33 @@
+/* --------Start Flower and Plant Magazine section-------- */
+.plant-magazine-inner{
+    transition: all 0.4s ease;
+}
+.plant-magazine-inner img{
+    border-radius: 10px;
+}
+.plant-magazine-inner h5{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+.plant-magazine-inner p{
+    font-size: 14px;
+    color: #818181;
+    padding: 6px 15px;
+}
+.plant-magazine-inner a{
+    color: #fdfdfd;
+    background-color: rgb(255, 13, 126);
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+}
+.plant-magazine-inner{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    box-shadow: 1px 1px 10px 1px #efefef;
+}
+/* --------End Flower and Plant Magazine section-------- */

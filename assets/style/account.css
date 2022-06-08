@@ -1,0 +1,122 @@
+.tool-acount-wrapper{
+    border-right: 1px solid rgb(59, 59, 59);
+    height: 90.5vh;
+    overflow-y: scroll;
+}
+.tool-acount-wrapper{
+    scroll-behavior: smooth;
+}
+.tool-acount-wrapper::-webkit-scrollbar {
+    width: 4px;
+}
+.tool-acount-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgb(119, 119, 119);
+    border-radius: 5px;
+    width: 4px;
+}
+.tool-acount-wrapper::-webkit-scrollbar-track {
+    background-color: rgb(59, 59, 59);
+}
+.acount-name-section{
+    border-bottom: 2px solid #ababab4d;
+}
+.acount-name-section .myname-content h5{
+    font-size: 16px;
+    color: #eeeeee;
+}
+.acount-name-section .myname-content h5 i{
+    margin-left: 3px;
+    font-size: 14px;
+    color: #00c4ff;
+}
+.acount-name-section .myname-content p{
+    font-size: 13px;
+    color: #a7a7a7;
+}
+.acount-name-section a{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #bfbfbf;
+}
+.acount-tool-section{
+    border-bottom: 2px solid #8383834d;
+}
+.acount-tool-section a{
+    text-decoration: none;
+    color: #919191;
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 10px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.acount-tool-section a i{
+    vertical-align: -1px;
+    font-size: 17px;
+    color: #dbdbdb;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.acount-tool-section a:hover{
+    color: #eeeeee;
+}
+.acount-tool-section a:hover i{
+    color: #fd8e44;
+}
+.acount-tool-section a span.badge-live{
+    font-size: 14px;
+    color: #f1f1f1;
+    margin-left: 55px;
+    font-weight: 300;
+}
+.acount-tool-section p{
+    color: rgb(206, 206, 206);
+    font-size: 15px;
+}
+.acount-tool-section p ion-icon{
+    vertical-align: -4px;
+    margin-left: 5px;
+}
+.acount-active-section a{
+    text-decoration: none;
+    color: #919191;
+    font-size: 15px;
+    align-self: flex-start;
+    margin-left: 10px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.acount-active-section a i{
+    vertical-align: -1px;
+    font-size: 17px;
+    color: #dbdbdb;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.acount-active-section a:hover{
+    color: #eeeeee;
+}
+.acount-active-section a:hover i{
+    color: #fd8e44;
+}
+.acount-active-section span{
+    color: rgb(206, 206, 206);
+    font-size: 15px;
+}
+.acount-active-section span ion-icon{
+    vertical-align: -4px;
+    margin-left: 5px;
+}
+.acount-active-section .search-ion-acount-active{
+    position: absolute;
+    top: 3px;
+    right: 0;
+    font-size: 20px;
+}
+.acount-active-section a span.badge-live{
+    font-size: 14px;
+    color: #c0c0c0;
+    margin-left: 29px;
+    font-weight: 300;
+}
+.acount-active-section a span.badge-live i {
+    font-size: 13px;
+    vertical-align: 1px;
+    margin-left: 5px;
+}
