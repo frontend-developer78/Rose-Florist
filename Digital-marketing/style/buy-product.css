@@ -4,14 +4,41 @@
     border: 1px solid #efefef;
     box-shadow: 1px 1px 10px 1px #efefef;
 }
-.buy-product-section .Product-icon-section a.heart-icon-section img.heart-red{
-    display: none;
-} 
-.buy-product-section .Product-icon-section a.heart-icon-section:focus img.heart-red{
-    display: block;
+.heart-icon-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 30px;
+    height: 30px;
 }
-.buy-product-section .Product-icon-section a.heart-icon-section:focus img.heart-black{
+.Product-icon-section{
+    background-color: #f3f3f3;
+    padding: 20px;
+    position: absolute;
+    left: 10px;
+    top: 59px;
+    border-radius: 10px;
+    box-shadow: 7px 8px 18px 0px #0000002e;
+}
+.heart-icon-section > input{
     display: none;
+}
+.heart-icon-section > label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url("../image/heart-black.png");
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.heart-icon-section > input:checked ~ label{
+    background-image: url("../image/heart-red.png");
 }
 .Product-images-container .zoom-main span{
     border: 6px solid rgb(255, 255, 255);

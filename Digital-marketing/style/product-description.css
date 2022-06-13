@@ -46,14 +46,87 @@
     font-size: 13px;
     color: #747474;
 }
-.comments-tab-pane div a i{
-    color: #d3d3d3;
-    font-size: 13px;
-    transition: all 0.3s ease;
+.comments-tab-pane div.rating-container{
+    display: flex;
+    align-items: center;
+} 
+.comments-tab-pane .rating-container .feedback{
+    width: 266px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
-.comments-tab-pane div a i:hover{
-    color: gold;
+.comments-tab-pane .rating-container .feedback .rating{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 150px;
+    /* background-color: #ccc; */
+    overflow: hidden;
+    flex-direction: row-reverse;
+    position: relative;
 }
+.feedback .rating input{
+    display: none;
+}
+.feedback .rating > label{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-image: url("../image/star-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 76%;
+    transition: 0.3s;
+    margin-top: auto;
+}
+.emoji-wrapper .emoji .emoji-0{
+    filter: grayscale(100%);
+}
+.feedback .emoji-wrapper{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.feedback .emoji-wrapper > .emoji {
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback .emoji-wrapper > .emoji img{
+    margin: 15px 0;
+    width: 70px;
+    height: 70px;
+}
+.feedback .rating > input:checked ~ label,
+.feedback .rating > input:checked ~ label ~ label{
+    background-image: url("../image/star-2.svg");
+}
+.feedback .rating > input:not(:checked) ~ label:hover,
+.feedback .rating > input:not(:checked) ~ label:hover ~ label{
+    background-image: url("../image/star-3.svg");
+}
+.feedback .rating > #rating-1:checked ~ .emoji-wrapper .emoji{
+    transform: translateY(-100px);
+} 
+.feedback .rating > #rating-2:checked ~ .emoji-wrapper .emoji{
+    transform: translateY(-200px);
+} 
+.feedback .rating > #rating-3:checked ~ .emoji-wrapper .emoji{
+    transform: translateY(-300px);
+} 
+.feedback .rating > #rating-4:checked ~ .emoji-wrapper .emoji{
+    transform: translateY(-400px);
+} 
+.feedback .rating > #rating-5:checked ~ .emoji-wrapper .emoji{
+    transform: translateY(-500px);
+} 
 .comments-tab-pane button.btn-submit{
     color: rgb(228, 10, 112);
     border: 2px solid rgb(228, 10, 112);
