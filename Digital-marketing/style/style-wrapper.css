@@ -1,48 +1,48 @@
 @charset "UTF-8";
-@import url("../style/navbar.css");
-@import url("../style/slider.css");
-@import url("../style/carousel-product.css");
-@import url("../style/events-product.css");
-@import url("../style/category-product.css");
-@import url("../style/Plant-Magazine.css");
-@import url("../style/introduction.css");
-@import url("../style/Features-company.css");
-@import url("../style/footer.css");
-@import url("../style/technical-services-chat.css");
+@import url("navbar.css");
+@import url("slider.css");
+@import url("carousel-product.css");
+@import url("events-product.css");
+@import url("category-product.css");
+@import url("Plant-Magazine.css");
+@import url("introduction.css");
+@import url("Features-company.css");
+@import url("footer.css");
+@import url("technical-services-chat.css");
 /* Start product page section style */
-@import url("../style/product-header.css");
-@import url("../style/buy-product.css");
-@import url("../style/product-description.css");
-@import url("../style/sign-up.css");
-@import url("../style/subscribe-newsletter.css");
-@import url("../style/login.css");
-@import url("../style/profile.css");
+@import url("product-header.css");
+@import url("buy-product.css");
+@import url("product-description.css");
+@import url("sign-up.css");
+@import url("subscribe-newsletter.css");
+@import url("login.css");
+@import url("profile.css");
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 
 @font-face{
     font-family: IRANYekanWebMedium;
-    src: url("/assets/fonts/IRANYekanWebMedium.eot") format("eot"),
-    url("/assets/fonts/IRANYekanWebMedium.ttf") format("truetype"),
-    url("/assets/fonts/IRANYekanWebMedium.woff") format("woff"),
-    url("/assets/fonts/IRANYekanWebMedium.woff2") format("woff2");
+    src: url("../fonts/IRANYekanWebMedium.eot") format("eot"),
+    url("../fonts/IRANYekanWebMedium.ttf") format("truetype"),
+    url("../fonts/IRANYekanWebMedium.woff") format("woff"),
+    url("../fonts/IRANYekanWebMedium.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: iranyekanwebmediumfanum;
-    src: url("/assets/fonts/iranyekanwebmediumfanum.eot") format("eot"),
-    url("/assets/fonts/iranyekanwebmediumfanum.ttf") format("truetype"),
-    url("/assets/fonts/iranyekanwebmediumfanum.woff") format("woff");
+    src: url("../fonts/iranyekanwebmediumfanum.eot") format("eot"),
+    url("../fonts/iranyekanwebmediumfanum.ttf") format("truetype"),
+    url("../fonts/iranyekanwebmediumfanum.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: IRANYekanWebLight;
-    src: url("/assets/fonts/IRANYekanWebLight.eot") format("eot"),
-    url("/assets/fonts/IRANYekanWebLight.ttf") format("truetype"),
-    url("/assets/fonts/IRANYekanWebLight.woff") format("woff"),
-    url("/assets/fonts/IRANYekanWebLight.woff2") format("woff2");
+    src: url("../fonts/IRANYekanWebLight.eot") format("eot"),
+    url("../fonts/IRANYekanWebLight.ttf") format("truetype"),
+    url("../fonts/IRANYekanWebLight.woff") format("woff"),
+    url("../fonts/IRANYekanWebLight.woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
 }
