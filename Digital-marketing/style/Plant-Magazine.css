@@ -6,14 +6,9 @@
     border-radius: 10px;
 }
 .plant-magazine-inner h5{
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
     text-align: center;
-}
-.plant-magazine-inner p{
-    font-size: 14px;
-    color: #818181;
-    padding: 6px 15px;
 }
 .plant-magazine-inner a{
     color: #fdfdfd;

@@ -1,0 +1,151 @@
+/* -------- Start profile section -------- */
+@media (min-width: 1200px){
+    .profile-container{
+        max-width: 1300px;
+    }
+}
+.profile-sidebar-inner{
+    background-color: #fff;
+    /* padding: 20px; */
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+}
+.name-profile img.profile-acount-image{
+    border: 2px solid #efefef;
+}
+.name-profile .profile-acount-name p:nth-of-type(1){
+    font-size: 17px;
+    color: rgb(34, 34, 34);
+    font-weight: 900;
+}
+.name-profile .profile-acount-name p:nth-of-type(2){
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+}
+.name-profile .profile-acount-name a img{
+    transition: transform 0.3s;
+}
+.name-profile .profile-acount-name :hover img{
+    transform: translateY(-4px);
+}
+.wallet-profile-acount p{
+    font-size: 15px;
+    color: rgb(29, 29, 29);
+}
+.wallet-profile-acount a{
+    font-size: 14px;
+    color: rgb(14, 90, 255);
+}
+.wallet-profile-acount::before{
+    content: '';
+    position: absolute;
+    top: -14px;
+    right: -25px;
+    width: 2px;
+    height: 65%;
+    background-color: #c5c5c5;
+}
+.wallet-profile-acount::after {
+    content: '';
+    position: absolute;
+    top: 33px;
+    right: -29px;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    border: 2px solid #c5c5c5;
+    background-color: #7a7a7a;
+}
+.profile-list-container li{
+    border-bottom: 1px solid rgb(241 241 241);
+    transition: 0.3s ease;
+}
+.profile-list-container li:hover{
+    background-color: #f5f5f5;
+    border-right: 3px solid rgb(255, 6, 143);
+}
+.profile-list-container li a{
+    color: #4e4e4e;
+    font-size: 15px;
+    transition: 0.3s linear;
+}
+.profile-list-container li:hover a{
+    color: rgb(255, 6, 143);
+}
+.me-order-wrapper,
+.me-list-wrapper,
+.shopping-experience{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+}
+.me-order-wrapper .me-order-head h4,
+.me-list-wrapper .me-list-head h4,
+.shopping-experience .shopping-experience-head h4{
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 2px solid rgb(248, 18, 133);
+    color: #292929;
+}
+.me-order-wrapper .me-order-head a,
+.me-list-wrapper .me-list-head a,
+.shopping-experience .shopping-experience-head a{
+    color: rgb(18, 99, 248);
+    font-size: 14px;
+    transition: 0.3s;
+}
+.me-order-wrapper .me-order-head a i{
+    vertical-align: -2px;
+    transition: transform 0.3s;
+}
+.me-order-wrapper .me-order-head a:hover{
+    color: rgb(236, 11, 22);
+}
+.me-order-wrapper .me-order-head a:hover i{
+    transform: translateX(-7px);
+}
+.me-order-details p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.me-order-details span{
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.me-list-wrapper .product-owl-carousel .owl-dots{
+    display: none;
+}
+.me-list-wrapper .product-card-wrapper h5{
+    font-size: 15px;
+}
+.me-list-wrapper .product-card-wrapper p{
+    font-size: 13px;
+}
+.me-list-wrapper .product-card-wrapper p strong{
+    font-size: 15px;
+}
+.shopping-experience-content h5{
+    font-size: 17px;
+    color: #222222;
+}
+.shopping-experience-content p{
+    font-size: 15px;
+    color: #747474;
+}
+.shopping-experience-content img{
+    border-radius: 20px;
+}
+.shopping-experience-content a{
+    color: rgb(12, 144, 233);
+    font-size: 15px;
+}
+.shopping-experience-content a i{
+    vertical-align: -2px;
+}
+.shopping-experience span{
+    font-size: 12px;
+    color: #858585;
+}

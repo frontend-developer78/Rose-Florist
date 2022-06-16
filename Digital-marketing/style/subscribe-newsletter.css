@@ -1,21 +1,25 @@
 /* -------- Start subscribe newsletter section -------- */
 .subscribe-newsletter-section{
     background: linear-gradient(to bottom, #98b7fa, #698cbf);
-    background-image: url("../image/subscribe-bg.png");
+    background-image: url("../image/e-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0px -10px 20px 0px #1e1e1e3d;
+    margin-top: 100px;
 }
 .subscribe-newsletter-section h3{
     font-size: 33px;
     font-weight: 900;
-    color: rgb(248, 248, 248);
-    text-shadow: 2px 3px 7px #0c0c0c;
+    color: rgb(75, 75, 75);
 }
 .subscribe-newsletter-section .form-control{
     font-size: 15px;
     color: #0140a0;
+    padding: 25px;
+    border-radius: 0 15px 15px 0!important;
+    outline: none;
+    border: none;
+    box-shadow: -5px 5px 20px #00000038;
 }
 .subscribe-newsletter-section .form-control::placeholder{
     font-size: 15px;
@@ -30,6 +34,9 @@
     background-color: rgb(245, 8, 99);
     color: #fff;
     font-size: 15px;
+    padding: 13px;
+    border-radius: 15px 0 0 15px;
+    box-shadow: -5px 5px 20px #00000038;
 }
 .subscribe-newsletter-section button:focus{
     box-shadow: none;
@@ -37,4 +44,10 @@
 .subscribe-newsletter-section button:hover{
     color: #ffffff;
     background-color: rgb(219, 0, 84);
+}
+.subscribe-newsletter-section p{
+    font-size: 15px;
+    line-height: 37px;
+    color: #5c5c5c;
+    text-align: center;
 }
